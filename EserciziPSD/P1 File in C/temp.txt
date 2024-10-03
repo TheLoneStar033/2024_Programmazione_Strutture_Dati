@@ -1,0 +1,18 @@
+Ancona     27 .
+Aosta      29 , ,  ,
+Bari       30 .
+Bologna	   33 .
+Cagliari   33 ,
+Campobasso 30 .
+Catanzaro  35  ,
+Firenze	   35 .
+Genova	   27 ,  ,
+Milano	   30 ,  ,     ,
+Napoli	   29  .
+Palermo	   31 .
+Perugia	   32 .
+Potenza	   31 ,   ,
+Roma       32 .
+Torino     28  , ,   ,   , 
+Trento     30 .
+Trieste    26 .
