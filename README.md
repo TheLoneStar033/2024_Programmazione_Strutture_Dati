@@ -51,17 +51,6 @@ make clean
 
 ---
 
-## 🧪 Tests
-
-Some exercises include demo test files (`*_test.c`).
-Run them after compilation to verify correct behavior:
-
-```bash
-./example_test
-```
-
-
-
 ## 🎯 Goals
 
 * Practice programming in **C**
@@ -74,6 +63,5 @@ Run them after compilation to verify correct behavior:
 
 * This material is for **educational purposes only**.
 * It does not represent official solutions, but personal practice exercises.
-* Feel free to **fork, clone, and modify** the repository.
 
 
