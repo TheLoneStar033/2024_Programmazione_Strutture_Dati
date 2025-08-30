@@ -1,49 +1,79 @@
-📚 Strutture Dati e Programmazione – Esercizi
 
-Questa repository raccoglie gli esercizi svolti per il corso di Programmazione e Strutture Dati (Laurea in Informatica).
-Gli esercizi sono scritti in C e organizzati per argomento con relativi Makefile.
+# 📚 Data Structures and Programming – Exercises
 
-🔧 Contenuto
+![Language](https://img.shields.io/badge/language-C-blue)
+![Build](https://img.shields.io/badge/build-Makefile-green)
+![Status](https://img.shields.io/badge/status-educational-orange)
 
-Stack (implementazione con array e liste)
+This repository contains a collection of exercises developed for the **Programming and Data Structures** course (Computer Science degree).  
+All exercises are written in **C** and organized by topic with dedicated **Makefiles**.
 
-Queue (FIFO con array circolare e liste)
+---
 
-Liste (liste semplici, doppie, circolari)
+## 📦 Contents
 
-Alberi (binari, BST, traversamenti)
+- **Stack** (array-based and linked list implementation)  
+- **Queue** (FIFO, circular array, and linked list)  
+- **Lists** (singly, doubly, circular)  
+- **Trees** (binary trees, BST, traversals)  
+- **Graphs** (adjacency lists, BFS/DFS)  
+- **Miscellaneous** (recursion, memory management, etc.)  
 
-Grafi (rappresentazione con liste di adiacenza, BFS/DFS)
+---
 
-Altri esercizi (ricorsione, gestione memoria, ecc.)
+## 🛠️ Compilation
 
-▶️ Come compilare
+Each folder includes a **Makefile**.  
+To compile an exercise:
 
-Ogni cartella contiene un Makefile.
-Per compilare un esercizio:
-
+```bash
 cd stack
 make
 ./stack_test
+````
 
-Per ripulire i file oggetto:
+To clean object files:
+
+```bash
 make clean
+```
 
-🧪 Test
+---
 
-Alcuni esercizi includono file di test dimostrativi (*_test.c).
-Puoi eseguirli dopo la compilazione per vedere l’output e verificare il corretto funzionamento.
+## 📑 Main Structures and Files
 
-🎯 Obiettivo
+| Structure | Files                | Notes                                        |
+| --------- | -------------------- | -------------------------------------------- |
+| **Stack** | `stack.c`, `stack.h` | Implemented with arrays and linked lists     |
+| **Queue** | `queue.c`, `queue.h` | Circular array and linked list               |
+| **BST**   | `bst.c`, `bst.h`     | Binary search tree with insert/search/delete |
+| **Graph** | `graph.c`, `graph.h` | Adjacency lists + BFS/DFS                    |
 
-Allenamento alla programmazione in C
+---
 
-Comprensione e implementazione delle principali strutture dati
+## 🧪 Tests
 
-Preparazione all’esame di Programmazione e Strutture Dati
+Some exercises include demo test files (`*_test.c`).
+Run them after compilation to verify correct behavior:
 
-📌 Note
+```bash
+./example_test
+```
 
-Questo materiale è a scopo didattico.
 
-Non rappresenta soluzioni ufficiali, ma esercizi svolti per pratica personale.
+
+## 🎯 Goals
+
+* Practice programming in **C**
+* Understand and implement the main **data structures**
+* Prepare for the **Programming and Data Structures** exam
+
+
+
+## 📌 Notes
+
+* This material is for **educational purposes only**.
+* It does not represent official solutions, but personal practice exercises.
+* Feel free to **fork, clone, and modify** the repository.
+
+
